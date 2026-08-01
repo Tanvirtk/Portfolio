@@ -37,7 +37,7 @@ const heading = document.querySelector(".hero-text h1");
 setInterval(function () {
 
     if (heading.style.color === "tomato") {
-        heading.style.color = "#333";
+        heading.style.color = "#282727";
     } else {
         heading.style.color = "tomato";
     }
