@@ -34,19 +34,15 @@ profile.addEventListener("mouseout", function () {
 
 const heading = document.querySelector(".hero-text h1");
 
-heading.addEventListener("click", function () {
+setInterval(function () {
 
-    if (heading.style.color == "tomato") {
-
+    if (heading.style.color === "tomato") {
         heading.style.color = "#333";
-
     } else {
-
         heading.style.color = "tomato";
-
     }
 
-});
+}, 1100);
 
 const buttons = document.querySelectorAll(".button, form button");
 
