@@ -1,8 +1,7 @@
 const form = document.querySelector("form");
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", function () {
 
-    e.preventDefault();
 
     alert("Thank You! Your message has been sent successfully.");
 
